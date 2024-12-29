@@ -26,6 +26,7 @@ function Logo() {
 function Form() {
   const [description, setDescription] = useState('');
   const [quantity, setQuantity] = useState(1);
+  const [items, setItems] = useState();
 
   function handleSubmit(e) {
     // Prevent the submission of the form from reloading the whole page
